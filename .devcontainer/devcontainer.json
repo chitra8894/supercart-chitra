@@ -1,5 +1,10 @@
 {
   "name": "SuperKart",
   "image": "mcr.microsoft.com/devcontainers/python:3.13",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "moby": false
+    }
+  },
   "postCreateCommand": "python -m venv .venv && .venv/bin/pip install -r backend/requirements.txt"
 }
