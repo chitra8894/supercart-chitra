@@ -38,7 +38,7 @@ product_data = {
     # "Store_Type": Store_Type,
     "Product_Id_char": Product_Id_char,
     "Store_Age_Years": Store_Age_Years,
-    "Product_Type_Category": Product_Type_Category
+    "Product_Type": Product_Type_Category
 }
 
 # Single Prediction
