@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 
 superkart_api = Flask("SuperKart")
 
-model = joblib.load("backend/random_forest_model.joblib")
+model = joblib.load("random_forest_model.joblib")
 
 @superkart_api.get('/')
 def home():
